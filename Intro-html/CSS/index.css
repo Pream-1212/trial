@@ -1,0 +1,15 @@
+/* Add blue text class for Margaret Hillert */
+.blue-text {
+    color: blue;
+}
+.red-text {
+    color: red;
+}
+.pink-text {
+    color:orange;
+}
+*blue {
+    color:blue;
+}
+
+
