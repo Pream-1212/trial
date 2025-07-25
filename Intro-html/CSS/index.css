@@ -1,14 +1,14 @@
 /* Add blue text class for Margaret Hillert */
-.blue-text {
+.third {
     color: blue;
 }
-.red-text {
+.second {
     color: red;
 }
-.pink-text {
+.tenth {
     color:orange;
 }
-*blue {
+#blue {
     color:blue;
 }
 

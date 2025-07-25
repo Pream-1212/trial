@@ -1,0 +1,57 @@
+.container-fluid {
+     background-color: #1bb33c !important;
+ }
+
+ /* .navbar-brand  {
+     color: white;
+     
+ }
+
+ 
+ 
+ .navbar-toggler {
+     color: white;
+ }
+ .navbar .toggler-icon {
+     color: white;
+ }
+ .collapse .navbar-collapse {
+        color: white;
+ }
+ .navbar-nav .me-auto .mb-2 .mb-lg-0 {
+     color: white;
+ }
+ .d-flex{
+     color: white;
+ }
+ .form-control .me-2 {
+     color: white;
+ }
+ .btn .btn-outline-success {
+     color: white;
+ }
+ * {
+     color: white;
+ }
+ a{
+        color: white;
+ }
+ body {
+     color: white;
+ } */
+ 
+ .navbar a,
+ .dropdown-menu a {
+        color: white !important;
+ }
+ 
+ .dropdown-menu{
+    background-color: #1bb33c !important;
+ }
+ .navbar a:hover{
+    color: black !important;
+ }
+ .navbar a:hover,
+ .dropdown-menu :hover{
+    background-color: aqua !important;
+ }

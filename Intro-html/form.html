@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/form.css">
+    <style>
+        .first {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: gold;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>form</h1>
+
+    <form id="register" class="first">
+        <label class="second"  for="name">First name</label>
+        <input type="text" name="firstname" id="fname">
+      <br><br>  
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+        <label for="date">DOB</label>
+       <input type="date" name="dob" id="dob">
+<br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="field">Field of Talent</label>
+  <select id="field" name="field" required>
+    <option value=""> Select your field </option>
+    <option value="tech">Tech</option>
+    <option value="fashion">Fashion</option>
+    <option value="design">Design</option>
+    <option value="marketing">Marketing</option>
+    <option value="writing">Writing</option>
+  </select><br>
+  <!-- Experience Level (Radio Buttons) -->
+  <label>Experience Level</label><br>
+  <input type="radio" id="beginner" name="experience" value="beginner" required />
+  <label for="beginner">Beginner</label><br>
+  <input type="radio" id="intermediate" name="experience" value="intermediate">
+  <label for="intermediate">Intermediate</label><br />
+  <input type="radio" id="advanced" name="experience" value="advanced" />
+  <label for="advanced">Advanced</label><br /><br />
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password">
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    <br><br>
+    <Title>Specific to the form</Title>
+    <form id="register" class="first">
+        <label class="second"  for="name">First name</label>
+        <input type="text" name="firstname" id="fname">
+      <br><br>  
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+        <label for="date">DOB</label>
+       <input type="date" name="dob" id="dob">
+<br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="field">Field of Talent</label>
+  <select id="field" name="field" required>
+    <option value=""> Select your field </option>
+    <option value="tech">Tech</option>
+    <option value="fashion">Fashion</option>
+    <option value="design">Design</option>
+    <option value="marketing">Marketing</option>
+    <option value="writing">Writing</option>
+  </select><br>
+  <!-- Experience Level (Radio Buttons) -->
+  <label>Experience Level</label><br>
+  <input type="radio" id="beginner" name="experience" value="beginner" required />
+  <label for="beginner">Beginner</label><br>
+  <input type="radio" id="intermediate" name="experience" value="intermediate">
+  <label for="intermediate">Intermediate</label><br />
+  <input type="radio" id="advanced" name="experience" value="advanced" />
+  <label for="advanced">Advanced</label><br /><br />
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password">
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+<style>
+    
+</style>
+</body>
+</html>
